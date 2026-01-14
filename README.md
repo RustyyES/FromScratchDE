@@ -1,16 +1,16 @@
-# 🚀 Data Engineering From Scratch
+# Data Engineering From Scratch
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Dependencies](https://img.shields.io/badge/Dependencies-Zero-green)
 
-Welcome to **Data Engineering From Scratch**! 🎓
+Welcome to **Data Engineering From Scratch**! 
 
 This is an educational project where I rebuilt the core components of the modern Data Engineering stack (**Spark**, **Airflow**, **Kafka**, **Requests**, **GreatExpectations**) using **Pure Python**. No external libraries (except standard libs) were used for the core logic.
 
 The goal was to demystify how these tools work under the hood by implementing their fundamental algorithms: **MapReduce**, **DAG Topological Sort**, **Commit Logs**, **Token Buckets**, etc.
 
-## 🏗️ Architecture
+## Architecture
 
 The project is organized into modular "Mini" components, each simulating a real industrial tool:
 
@@ -24,7 +24,7 @@ The project is organized into modular "Mini" components, each simulating a real 
 
 ---
 
-## 📅 Curriculum & Features
+## Curriculum & Features
 
 ### Week 1-2: Distributed Compute (Mini-Spark)
 - Implemented **Lazy Execution** (transformations aren't computed until an action is called).
@@ -50,7 +50,7 @@ The project is organized into modular "Mini" components, each simulating a real 
 
 ---
 
-## ⚡ Performance Benchmark: The Grand Finale
+## Performance Benchmark: The Grand Finale
 
 To verify the architecture, I ran an End-to-End Benchmark using **real-world data** from the **USGS Earthquake API**.
 
@@ -72,9 +72,9 @@ I compared the **Mini-Spark (4 Partitions)** implementation against a **Single-T
 
 **Insights Found:**
 Top active earthquake regions (Magnitude > 4.0):
-1.  **Russia** 🇷🇺
-2.  **Indonesia** 🇮🇩
-3.  **Philippines** 🇵🇭
+1.  **Russia** 
+2.  **Indonesia** 
+3.  **Philippines** 
 
 ---
 
@@ -105,7 +105,7 @@ python3 data_engineering_from_scratch/examples/example_quality_phase5.py
 
 ---
 
-## 🧠 Lessons Learned
+##  Lessons Learned
 - **Lazy Evaluation** is huge for memory saving but makes debugging tricky.
 - **Partitions** are the secret sauce of scalability.
 - **Topological Sorting** is just fancy dependency resolution.
